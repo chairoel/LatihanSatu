@@ -1,11 +1,12 @@
-package com.amrul.idcamp.latihansatu
+package com.amrul.idcamp.latihansatu.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.amrul.idcamp.latihansatu.R
 
-class FirstActivity : AppCompatActivity() {
+class MoveActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_first)
+        setContentView(R.layout.activity_move)
     }
 }
